@@ -12,7 +12,7 @@ import { BigNumber } from '@ethersproject/bignumber'
 import { waitFor } from '@testing-library/react'
 import type Safe from '@crossbell-box/safe-core-sdk'
 import { hexZeroPad } from 'ethers/lib/utils'
-import type CompatibilityFallbackHandlerEthersContract from '@safe-global/safe-ethers-lib/dist/src/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
+import type CompatibilityFallbackHandlerEthersContract from '@crossbell-box/safe-ethers-lib/dist/src/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
 
 const mockSafeInfo = {
   data: '0x',

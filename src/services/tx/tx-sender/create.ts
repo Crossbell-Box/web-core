@@ -3,7 +3,11 @@ import { Errors, logError } from '@/services/exceptions'
 import type { SafeTransactionEstimation, TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
 import { getTransactionDetails, Operation, postSafeGasEstimation } from '@safe-global/safe-gateway-typescript-sdk'
 import type { AddOwnerTxParams, RemoveOwnerTxParams, SwapOwnerTxParams } from '@crossbell-box/safe-core-sdk'
-import type { MetaTransactionData, SafeTransaction, SafeTransactionDataPartial } from '@crossbell-box/safe-core-sdk-types'
+import type {
+  MetaTransactionData,
+  SafeTransaction,
+  SafeTransactionDataPartial,
+} from '@crossbell-box/safe-core-sdk-types'
 import { EMPTY_DATA } from '@crossbell-box/safe-core-sdk/dist/src/utils/constants'
 import extractTxInfo from '../extractTxInfo'
 import { getAndValidateSafeSDK } from './sdk'
