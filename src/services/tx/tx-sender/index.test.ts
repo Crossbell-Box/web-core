@@ -1,6 +1,6 @@
 import { setSafeSDK } from '@/hooks/coreSDK/safeCoreSDK'
 import type Safe from '@crossbell-box/safe-core-sdk'
-import { type TransactionResult } from '@safe-global/safe-core-sdk-types'
+import { type TransactionResult } from '@crossbell-box/safe-core-sdk-types'
 import { getTransactionDetails, postSafeGasEstimation } from '@safe-global/safe-gateway-typescript-sdk'
 import extractTxInfo from '../extractTxInfo'
 import proposeTx from '../proposeTransaction'

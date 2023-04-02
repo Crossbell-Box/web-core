@@ -1,4 +1,4 @@
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from '@crossbell-box/safe-core-sdk-types'
 import { generatePreValidatedSignature } from '@crossbell-box/safe-core-sdk/dist/src/utils/signatures'
 
 export const encodeSignatures = (safeTx: SafeTransaction, from?: string): string => {

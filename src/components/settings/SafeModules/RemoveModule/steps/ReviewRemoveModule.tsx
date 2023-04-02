@@ -1,5 +1,5 @@
 import useAsync from '@/hooks/useAsync'
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from '@crossbell-box/safe-core-sdk-types'
 import SignOrExecuteForm from '@/components/tx/SignOrExecuteForm'
 import { Typography } from '@mui/material'
 import SendToBlock from '@/components/tx/SendToBlock'

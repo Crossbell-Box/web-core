@@ -1,6 +1,6 @@
 import { type ReactElement, type ReactNode, type SyntheticEvent, useEffect, useState } from 'react'
 import { Button, DialogContent, Typography } from '@mui/material'
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from '@crossbell-box/safe-core-sdk-types'
 
 import useWallet from '@/hooks/wallets/useWallet'
 import useGasLimit from '@/hooks/useGasLimit'

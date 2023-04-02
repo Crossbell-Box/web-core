@@ -5,7 +5,7 @@ import { RemoveGuard } from './RemoveGuard'
 
 import css from './styles.module.css'
 import ExternalLink from '@/components/common/ExternalLink'
-import { SAFE_FEATURES } from '@safe-global/safe-core-sdk-utils'
+import { SAFE_FEATURES } from '@crossbell-box/safe-core-sdk-utils'
 import { hasSafeFeature } from '@/utils/safe-versions'
 
 const NoTransactionGuard = () => {

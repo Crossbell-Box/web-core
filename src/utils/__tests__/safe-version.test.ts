@@ -1,4 +1,4 @@
-import { SAFE_FEATURES } from '@safe-global/safe-core-sdk-utils'
+import { SAFE_FEATURES } from '@crossbell-box/safe-core-sdk-utils'
 
 import { hasSafeFeature } from '../safe-versions'
 

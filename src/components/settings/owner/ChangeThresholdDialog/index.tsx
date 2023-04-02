@@ -9,7 +9,7 @@ import useAsync from '@/hooks/useAsync'
 
 import SignOrExecuteForm from '@/components/tx/SignOrExecuteForm'
 import type { TxStepperProps } from '@/components/tx/TxStepper/useTxStepper'
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from '@crossbell-box/safe-core-sdk-types'
 import Track from '@/components/common/Track'
 import { trackEvent, SETTINGS_EVENTS } from '@/services/analytics'
 import { createUpdateThresholdTx } from '@/services/tx/tx-sender'

@@ -3,7 +3,7 @@ import { getSpendingLimitInterface, getSpendingLimitModuleAddress } from '@/serv
 import useChainId from '@/hooks/useChainId'
 import { useWeb3 } from '@/hooks/wallets/web3'
 import useAsync from '@/hooks/useAsync'
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from '@crossbell-box/safe-core-sdk-types'
 import EthHashInfo from '@/components/common/EthHashInfo'
 import { Typography } from '@mui/material'
 import type { SpendingLimitState } from '@/store/spendingLimitsSlice'

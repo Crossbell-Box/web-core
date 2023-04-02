@@ -6,7 +6,7 @@ import type { ChangeOwnerData } from '@/components/settings/owner/AddOwnerDialog
 import useAsync from '@/hooks/useAsync'
 import { upsertAddressBookEntry } from '@/store/addressBookSlice'
 import { useAppDispatch } from '@/store'
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from '@crossbell-box/safe-core-sdk-types'
 import SignOrExecuteForm from '@/components/tx/SignOrExecuteForm'
 import { sameAddress } from '@/utils/addresses'
 import useAddressBook from '@/hooks/useAddressBook'

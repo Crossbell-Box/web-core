@@ -12,10 +12,10 @@ import { LATEST_SAFE_VERSION } from '@/config/constants'
 import semverSatisfies from 'semver/functions/satisfies'
 import { ImplementationVersionState } from '@safe-global/safe-gateway-typescript-sdk'
 import type { ChainInfo, SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
-import type { GetContractProps, SafeVersion } from '@safe-global/safe-core-sdk-types'
+import type { GetContractProps, SafeVersion } from '@crossbell-box/safe-core-sdk-types'
 import { assertValidSafeVersion, createEthersAdapter } from '@/hooks/coreSDK/safeCoreSDK'
-import type SignMessageLibEthersContract from '@safe-global/safe-ethers-lib/dist/src/contracts/SignMessageLib/SignMessageLibEthersContract'
-import type CompatibilityFallbackHandlerEthersContract from '@safe-global/safe-ethers-lib/dist/src/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
+import type SignMessageLibEthersContract from '@crossbell-box/safe-ethers-lib/dist/src/contracts/SignMessageLib/SignMessageLibEthersContract'
+import type CompatibilityFallbackHandlerEthersContract from '@crossbell-box/safe-ethers-lib/dist/src/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
 import type { Web3Provider } from '@ethersproject/providers'
 
 // `UNKNOWN` is returned if the mastercopy does not match supported ones

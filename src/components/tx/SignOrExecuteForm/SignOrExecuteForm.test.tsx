@@ -1,6 +1,6 @@
 import { act, fireEvent, render } from '@/tests/test-utils'
 import SignOrExecuteForm from '@/components/tx/SignOrExecuteForm/index'
-import type { SafeSignature, SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeSignature, SafeTransaction } from '@crossbell-box/safe-core-sdk-types'
 import * as useSafeInfoHook from '@/hooks/useSafeInfo'
 import * as useGasLimitHook from '@/hooks/useGasLimit'
 import * as useChainsHook from '@/hooks/useChains'
