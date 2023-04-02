@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from 'react'
 import type { BigNumber } from 'ethers'
-import type Safe from '@safe-global/safe-core-sdk'
+import type Safe from '@crossbell-box/safe-core-sdk'
 import { encodeSignatures } from '@/services/tx/encodeSignatures'
 import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
 import { OperationType } from '@safe-global/safe-core-sdk-types'

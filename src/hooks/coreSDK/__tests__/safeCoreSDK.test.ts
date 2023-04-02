@@ -1,9 +1,9 @@
 import { ethers } from 'ethers'
-import Safe from '@safe-global/safe-core-sdk'
+import Safe from '@crossbell-box/safe-core-sdk'
 import {
   getProxyFactoryContract,
   getSafeContract,
-} from '@safe-global/safe-core-sdk/dist/src/contracts/safeDeploymentContracts'
+} from '@crossbell-box/safe-core-sdk/dist/src/contracts/safeDeploymentContracts'
 import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import { Web3Provider } from '@ethersproject/providers'
 
@@ -16,7 +16,7 @@ jest.mock('@/services/contracts/safeContracts', () => {
   }
 })
 
-jest.mock('@safe-global/safe-core-sdk/dist/src/contracts/safeDeploymentContracts')
+jest.mock('@crossbell-box/safe-core-sdk/dist/src/contracts/safeDeploymentContracts')
 
 jest.mock('@/types/contracts', () => {
   return {

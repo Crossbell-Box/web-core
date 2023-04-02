@@ -1077,6 +1077,19 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
+"@crossbell-box/safe-core-sdk@^3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@crossbell-box/safe-core-sdk/-/safe-core-sdk-3.3.4.tgz#021ff9445a9565fdcfc3eace8c688bf4ce9eed34"
+  integrity sha512-oGiR4n5wQdyxInX7z4YM5zX9ZYk0o+miyBw1IaPCkN7oxAqjDNDLpZXAFik62XUjcCSNuKYzOiYTgEcgKQ04pg==
+  dependencies:
+    "@ethersproject/solidity" "^5.7.0"
+    "@safe-global/safe-core-sdk-types" "^1.9.0"
+    "@safe-global/safe-core-sdk-utils" "^1.7.2"
+    "@safe-global/safe-deployments" "^1.20.2"
+    ethereumjs-util "^7.1.5"
+    semver "^7.3.8"
+    web3-utils "^1.8.1"
+
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz#00629c35a688e05a88b1cda684fb9d5e73f000a1"
@@ -2979,19 +2992,6 @@
   integrity sha512-nlS9/vtd6rj+2IK0tgt4xq6vqdGOAa+6MwAeiYCoP1ihcqFD38k6LBn7ZdXWjRF9VBvMXTgclkjvzp+PkLKtAw==
   dependencies:
     "@safe-global/safe-core-sdk-types" "^1.9.0"
-    semver "^7.3.8"
-    web3-utils "^1.8.1"
-
-"@safe-global/safe-core-sdk@^3.3.2":
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-core-sdk/-/safe-core-sdk-3.3.2.tgz#571e38eec152668bf2c04771f62f1b123161ec7c"
-  integrity sha512-IhAxGyYnnG+Zl2zWe1520l00l+FT1QTeMDQlTtnhKCeISs2krXZSEKuolj/sHltXzrswuntaGElAYJyruWEG/A==
-  dependencies:
-    "@ethersproject/solidity" "^5.7.0"
-    "@safe-global/safe-core-sdk-types" "^1.9.0"
-    "@safe-global/safe-core-sdk-utils" "^1.7.2"
-    "@safe-global/safe-deployments" "^1.20.2"
-    ethereumjs-util "^7.1.5"
     semver "^7.3.8"
     web3-utils "^1.8.1"
 

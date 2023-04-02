@@ -3,7 +3,7 @@ import type { TransactionDetails } from '@safe-global/safe-gateway-typescript-sd
 import { getMultiSendCallOnlyContractInstance } from '@/services/contracts/safeContracts'
 import { useCurrentChain } from '@/hooks/useChains'
 import useSafeInfo from '@/hooks/useSafeInfo'
-import { encodeMultiSendData } from '@safe-global/safe-core-sdk/dist/src/utils/transactions/utils'
+import { encodeMultiSendData } from '@crossbell-box/safe-core-sdk/dist/src/utils/transactions/utils'
 import { Button, DialogContent, Typography } from '@mui/material'
 import SendToBlock from '@/components/tx/SendToBlock'
 import { useMemo, useState } from 'react'

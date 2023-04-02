@@ -6,7 +6,7 @@ import * as useSafeInfo from '@/hooks/useSafeInfo'
 import * as coreSDK from '@/hooks/coreSDK/safeCoreSDK'
 import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import { act } from '@testing-library/react'
-import type Safe from '@safe-global/safe-core-sdk'
+import type Safe from '@crossbell-box/safe-core-sdk'
 import type { JsonRpcProvider } from '@ethersproject/providers'
 
 describe('useInitSafeCoreSDK hook', () => {

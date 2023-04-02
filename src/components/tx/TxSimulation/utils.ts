@@ -1,6 +1,6 @@
-import { generatePreValidatedSignature } from '@safe-global/safe-core-sdk/dist/src/utils/signatures'
-import EthSafeTransaction from '@safe-global/safe-core-sdk/dist/src/utils/transactions/SafeTransaction'
-import { encodeMultiSendData } from '@safe-global/safe-core-sdk/dist/src/utils/transactions/utils'
+import { generatePreValidatedSignature } from '@crossbell-box/safe-core-sdk/dist/src/utils/signatures'
+import EthSafeTransaction from '@crossbell-box/safe-core-sdk/dist/src/utils/transactions/SafeTransaction'
+import { encodeMultiSendData } from '@crossbell-box/safe-core-sdk/dist/src/utils/transactions/utils'
 import { type SafeInfo, type ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import type { MetaTransactionData, SafeTransaction } from '@safe-global/safe-core-sdk-types'
 

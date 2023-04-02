@@ -13,7 +13,7 @@ import type { ChainInfo, FEATURES, SafeInfo, TransactionDetails } from '@safe-gl
 import { waitFor } from '@testing-library/react'
 import type { ConnectedWallet } from '@/services/onboard'
 import * as safeCoreSDK from '@/hooks/coreSDK/safeCoreSDK'
-import type Safe from '@safe-global/safe-core-sdk'
+import type Safe from '@crossbell-box/safe-core-sdk'
 import { Web3Provider } from '@ethersproject/providers'
 import { ethers } from 'ethers'
 import * as wrongChain from '@/hooks/useIsWrongChain'

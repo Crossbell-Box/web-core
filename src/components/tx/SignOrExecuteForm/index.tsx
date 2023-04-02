@@ -16,7 +16,7 @@ import { useCurrentChain } from '@/hooks/useChains'
 import { getTxOptions } from '@/utils/transactions'
 import { TxSimulation } from '@/components/tx/TxSimulation'
 import useIsSafeOwner from '@/hooks/useIsSafeOwner'
-import { sameString } from '@safe-global/safe-core-sdk/dist/src/utils'
+import { sameString } from '@crossbell-box/safe-core-sdk/dist/src/utils'
 import useIsValidExecution from '@/hooks/useIsValidExecution'
 import { useHasPendingTxs } from '@/hooks/usePendingTxs'
 import {
