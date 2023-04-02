@@ -47,7 +47,7 @@
     "@crossbell-box/safe-core-sdk": "^3.3.5",
     "@crossbell-box/safe-core-sdk-utils": "^1.7.4",
     "@safe-global/safe-deployments": "^1.21.1",
-    "@safe-global/safe-ethers-lib": "^1.9.2",
+    "@crossbell-box/safe-ethers-lib": "^1.9.4",
     "@safe-global/safe-gateway-typescript-sdk": "^3.7.0",
     "@safe-global/safe-react-components": "^2.0.5",
     "@sentry/react": "^7.28.1",
